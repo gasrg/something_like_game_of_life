@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABM Test - Game of Life</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <table id="map" class="map">
+    </table>
+    <div style="position:fixed; width:100%; top:0; left:0; text-align:center; opacity:0.9;">
+      <h2><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a></h2>
+    </div>
+    <div class='btn btn-lg' style="position:fixed; bottom:0; left:0; z-index:99">
+      <button id="reset-btn" style=" background-color:black;">RESET</button>
+    </div>
+    <div id='status' style="position:fixed; width:100%; bottom:0; left:0; text-align:center; opacity:0.6;font-size:0.8em;">
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
